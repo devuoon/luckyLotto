@@ -34,7 +34,6 @@ public class weekNum {
         Arrays.sort(weekLotto);
         
         // 로또 번호 출력
-        System.out.println("이번 주 로또 번호는 ~~~?? ");
         for (int number : weekLotto) {
             System.out.print(number + " ");
         }

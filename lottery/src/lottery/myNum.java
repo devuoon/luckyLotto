@@ -34,10 +34,12 @@ public class myNum {
         Arrays.sort(myLotto);
         
         // 로또 번호 출력
-        System.out.println("이번 주 로또 번호는 ~~~?? ");
+        System.out.println("자동으로 뽑은 로또 번호입니다. ");
         for (int number : myLotto) {
             System.out.print(number + " ");
         }
+        System.out.println(" ");
+        System.out.println(" ");
 
         return myLotto;
     }
